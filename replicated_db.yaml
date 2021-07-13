@@ -1,0 +1,8 @@
+apiVersion: app.redislabs.com/v1alpha1
+kind: RedisEnterpriseDatabase
+namespace: redis
+metadata:
+  name: redis-enterprise-database-rp
+spec:
+  memorySize: 100MB
+  replication: true
