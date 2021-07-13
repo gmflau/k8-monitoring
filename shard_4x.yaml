@@ -1,0 +1,9 @@
+apiVersion: app.redislabs.com/v1alpha1
+kind: RedisEnterpriseDatabase
+namespace: redis
+metadata:
+  name: redis-enterprise-database-4x-rp
+spec:
+  memorySize: 100MB
+  shardCount: 4
+  replication: true
